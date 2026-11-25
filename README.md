@@ -47,3 +47,19 @@ Algorithm practice supports technical interview preparation. For a Python Backen
 ## Author
 
 **Kirubanandhan V** · [GitHub](https://github.com/kirubanandhan016) · [Portfolio](https://kirubanandhan016.github.io/)
+
+
+## Problem-solving workflow
+
+```mermaid
+flowchart TD
+    Problem[Read problem statement] --> Constraints[Identify constraints and edge cases]
+    Constraints --> Approach[Choose data structure or algorithm]
+    Approach --> Prove[Explain correctness]
+    Prove --> Complexity[Analyze time and space]
+    Complexity --> Implement[Implement and test]
+    Implement --> Review[Review alternative approaches]
+```
+
+For each solution, keep a short note with the pattern used (for example, two pointers, sliding window, binary search, DFS/BFS, heap, or dynamic programming), complexity, and edge cases. Add notes only after independently understanding the solution.
+
